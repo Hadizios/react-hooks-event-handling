@@ -255,6 +255,9 @@ function ChangeItUp() {
         <option value="completed">Completed</option>
         <option value="incomplete">Incomplete</option>
       </select>
+
+
+    < textarea name="notes" onChange={handleChange} placeholder="Enter notes..." ></textare>
     </div>
   );
 }
@@ -315,7 +318,7 @@ In React, you can add event listeners to elements in JSX by providing an
 `onEvent` attribute and passing a _callback function_ to be used as an event
 handler. Some commonly used event listeners include `onClick`, `onChange`, and
 `onSubmit`. You can find a full list of supported events
-[here][react supported events].
+[here]F.
 
 React has its own internal events system that makes events behave consistently
 across various browsers.

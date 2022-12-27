@@ -19,6 +19,11 @@ function ChangeItUp() {
         <option value="completed">Completed</option>
         <option value="incomplete">Incomplete</option>
       </select>
+      <textarea
+        name="notes"
+        onChange={handleChange}
+        placeholder="Enter notes..."
+      />
     </div>
   );
 }
